@@ -1,94 +1,75 @@
-# New-Folder
+Namaste React 🚀
+Parcel
+Dev Build
+Local Server
+HMR = Hot Module Replacement
+File Watching Algorithm - written in C++
+Caching - Faster Builds
+Image Optimization
+Minification
+Bundling
+Compress
+Consistent Hashing
+Code Splitting
+Differential Bundling - support older browsers
+Diagnostic
+Error Handling
+HTTPs
+Tree Shaking - remove unused code
+Different dev and prod bundles
+Namaste Food
+/\*\*
 
-This is Demo Repository
-<br/>
-Author - Dipak Waghmare
+Header
+Logo
+Nav Items
+Body
+Search
+RestaurantContainer
+RestaurantCard
 
-# CSS
+-   Img
+-   Name of Res, Star Rating, cuisine, delery tie
+    Footer
+    Copyright
+    Links
+    Address
+    Contact \*/
+    Two types of Export/Import
 
-.header {
-display: flex;
-justify-content: space-between;
-}
+Default Export/Import
+export default Component; import Component from "path";
 
-.logo {
-width: 140px;
-}
+Named Export/Import
+export const Component; import {Component} from "path";
 
-.nav-items {
-padding: 0px 20px;
-}
+React Hooks
+(Normal JS utility functions)
 
-.nav-items > ul {
-font-size: 22px;
-display: flex;
-list-style-type: none;
-}
-
-.nav-items > ul > li {
-padding: 0.1px;
-margin: 15px;
-}
-
-.res-container {
-margin: 10px;
-padding: 5px;
-display: flex;
-flex-wrap: wrap;
-}
-
-.res-card {
-margin: 7px;
-padding: 5px;
-width: 220px;
-height: 380px;
-overflow-wrap: break-word;
-background-color:rgb(238, 235, 214);
-}
-
-.res-card:hover{
-cursor: pointer;
-border: 2px solid black;
-}
-
-.res-img {
-width: 100%;
-height: 150px;
-}
-
-.filter-btn{
-margin: 10px;
-cursor: pointer;
-}
-
-.shimmer-container {
-display: flex;
-flex-wrap: wrap;
-}
-
-.shimmer-card {
-margin: 10px;
-width: 230px;
-height: 400px;
-background-color: #f0f0f0;
-}
-
-.login-btn {
-padding: 0 25px;
-cursor: pointer;
-}
-
-.filter {
-margin: 10px;
-display: inline-block;
-}
-
-.user-card{
-margin: 10px;
-padding: 10px;
-border: 2px solid black;
-}
-
-.avatar_url{
-width: 150px;
-}
+useState() - Superpowerful State Variables in react
+useEffect()
+2 types Routing in web apps
+Client Side Routing
+Server Side Routing
+Redux Toolkit
+Install @reduxjs/toolkit and react-redux
+Build our store
+Connect our store to our app
+Slice (cartSlice)
+dispatch(action)
+Selector
+Types of testing (devloper)
+Unit Testing
+Integration Testing
+End to End Testing - e2e testing
+Setting up Testing in our app
+Install React Testing Library
+Installed jest
+Installed Babel dependencies
+Configure Babel
+Configure Parcel Config file to disable default babel transpilation
+Jest - npx jest --init
+Install jsdom library
+Install @babel/preset-react - to make JSX work in test cases
+Include @babel/preset-react inside my babel config
+npm i -D @testing-library/jest-dom
